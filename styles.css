@@ -1,4 +1,4 @@
-body {
+main {
     background-color: aqua;
     display: flex;
     flex-direction: row;
