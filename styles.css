@@ -2,14 +2,26 @@ main {
     background-color: aqua;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
     width: 100%;
-
-
 }
 
-div {
+.bakgrund {
 height: 400px;
-width: 250px;
+width: 900px;
 background-color: black;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+justify-content: space-around;
+}
+
+.card {
+height: 350px;
+width: 200px;
+background-color: wheat;
+border-radius: 10px;
 }
