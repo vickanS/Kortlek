@@ -1,0 +1,13 @@
+body {
+    background-color: aqua;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+div {
+height: 400px;
+width: 250px;
+background-color: black;
+}
