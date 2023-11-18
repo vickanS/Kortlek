@@ -25,3 +25,35 @@ width: 200px;
 background-color: wheat;
 border-radius: 10px;
 }
+
+.hearts {
+    width: 30px;
+}
+
+.bigheart {
+    width: 40px;
+}
+
+.spades {
+    width: 30px;
+}
+
+.bigspades {
+    width: 40px;
+}
+
+.clubs {
+    width: 30px;
+}
+
+.bigclubs {
+    width: 40px;
+}
+
+.diamonds {
+    width: 30px;
+}
+
+.bigdiamonds {
+    width: 40px;
+}
