@@ -12,7 +12,7 @@ main {
 height: 400px;
 width: 900px;
 background-color: black;
-display: flex;
+display: grid;
 justify-content: center;
 }
 
