@@ -44,8 +44,10 @@ justify-items: center;
     grid-area: 2/1;
 }
 
-.hearts:last-child {
+.heartsupsidedown {
+    width: 30px;
 grid-area: 5/5;
+transform: rotate(180deg);
 }
 
 .bigheart {
@@ -58,8 +60,10 @@ grid-area: 5/5;
     grid-area: 1/1;
 }
 
-.spades:last-child {
+.spadesupsidedown {
+    width: 30px;
     grid-area: 5/5;
+    transform: rotate(180deg);
 }
 
 .bigspades {
@@ -72,8 +76,10 @@ grid-area: 5/5;
     grid-area: 1/1;
 }
 
-.clubs:last-child {
+.clubsupsidedown {
+    width: 30px;
     grid-area: 5/5;
+    transform: rotate(180deg);
 }
 
 .bigclubs {
@@ -86,8 +92,10 @@ grid-area: 5/5;
     grid-area: 1/1;
 }
 
-.diamonds:last-child {
+.diamondsupsidedown {
+    width: 30px;
     grid-area: 5/5;
+    transform: rotate(180deg);
 }
 
 .bigdiamonds {
