@@ -40,7 +40,7 @@ justify-items: center;
     grid-area: 1/1;
 }
 
-.card .hearts:last-child {
+.hearts:last-child {
 grid-area: 5/5;
 }
 
@@ -54,6 +54,10 @@ grid-area: 5/5;
     grid-area: 1/1;
 }
 
+.spades:last-child {
+    grid-area: 5/5;
+}
+
 .bigspades {
     width: 40px;
     grid-area: 3/3;
@@ -64,6 +68,10 @@ grid-area: 5/5;
     grid-area: 1/1;
 }
 
+.clubs:last-child {
+    grid-area: 5/5;
+}
+
 .bigclubs {
     width: 40px;
     grid-area: 3/3;
@@ -72,6 +80,10 @@ grid-area: 5/5;
 .diamonds {
     width: 30px;
     grid-area: 1/1;
+}
+
+.diamonds:last-child {
+    grid-area: 5/5;
 }
 
 .bigdiamonds {
