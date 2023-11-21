@@ -40,6 +40,10 @@ justify-items: center;
     grid-area: 1/1;
 }
 
+.heartsnumber {
+    grid-area: 2/1;
+}
+
 .hearts:last-child {
 grid-area: 5/5;
 }
