@@ -41,7 +41,7 @@ justify-items: center;
 }
 
 .card .hearts:last-child {
-grid-area: ;
+grid-area: 5/5;
 }
 
 .bigheart {
@@ -51,24 +51,30 @@ grid-area: ;
 
 .spades {
     width: 30px;
+    grid-area: 1/1;
 }
 
 .bigspades {
     width: 40px;
+    grid-area: 3/3;
 }
 
 .clubs {
     width: 30px;
+    grid-area: 1/1;
 }
 
 .bigclubs {
     width: 40px;
+    grid-area: 3/3;
 }
 
 .diamonds {
     width: 30px;
+    grid-area: 1/1;
 }
 
 .bigdiamonds {
     width: 40px;
+    grid-area: 3/3;
 }
