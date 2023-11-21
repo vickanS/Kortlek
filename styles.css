@@ -44,8 +44,9 @@ justify-items: center;
     grid-area: 2/1;
 }
 
-.heartsnumberupsidedown {
+.heartnumberupsidedown {
     grid-area: 9/5;
+    transform: rotate(180deg);
 }
 .heartsupsidedown {
     width: 30px;
