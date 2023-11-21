@@ -31,14 +31,22 @@ padding: 3px;
 display: grid;
 grid-template-columns: repeat(5, 1fr);
 grid-template-rows: repeat(5, 1fr);
+align-items: center;
+justify-items: center;
 }
 
 .hearts {
     width: 30px;
+    grid-area: 1/1;
+}
+
+.card .hearts:last-child {
+grid-area: ;
 }
 
 .bigheart {
     width: 40px;
+    grid-area: 3/3;
 }
 
 .spades {
