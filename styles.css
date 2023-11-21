@@ -30,7 +30,7 @@ border-radius: 10px;
 padding: 3px;
 display: grid;
 grid-template-columns: repeat(5, 1fr);
-grid-template-rows: repeat(5, 1fr);
+grid-template-rows: repeat(10, 1fr);
 align-items: center;
 justify-items: center;
 }
@@ -44,15 +44,18 @@ justify-items: center;
     grid-area: 2/1;
 }
 
+.heartsnumberupsidedown {
+    grid-area: 9/5;
+}
 .heartsupsidedown {
     width: 30px;
-grid-area: 5/5;
+grid-area: 10/5;
 transform: rotate(180deg);
 }
 
 .bigheart {
     width: 40px;
-    grid-area: 3/3;
+    grid-area: 5/3;
 }
 
 .spades {
@@ -62,13 +65,13 @@ transform: rotate(180deg);
 
 .spadesupsidedown {
     width: 30px;
-    grid-area: 5/5;
+    grid-area: 10/5;
     transform: rotate(180deg);
 }
 
 .bigspades {
     width: 40px;
-    grid-area: 3/3;
+    grid-area: 5/3;
 }
 
 .clubs {
@@ -78,13 +81,13 @@ transform: rotate(180deg);
 
 .clubsupsidedown {
     width: 30px;
-    grid-area: 5/5;
+    grid-area: 10/5;
     transform: rotate(180deg);
 }
 
 .bigclubs {
     width: 40px;
-    grid-area: 3/3;
+    grid-area: 5/3;
 }
 
 .diamonds {
@@ -94,11 +97,11 @@ transform: rotate(180deg);
 
 .diamondsupsidedown {
     width: 30px;
-    grid-area: 5/5;
+    grid-area: 10/5;
     transform: rotate(180deg);
 }
 
 .bigdiamonds {
     width: 40px;
-    grid-area: 3/3;
+    grid-area: 5/3;
 }
