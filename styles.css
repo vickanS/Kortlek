@@ -64,6 +64,15 @@ transform: rotate(180deg);
     grid-area: 1/1;
 }
 
+.spadesnumber {
+    grid-area: 2/1;
+}
+
+.spadenumberupsidedown {
+    grid-area: 9/5;
+    transform: rotate(180deg);
+}
+
 .spadesupsidedown {
     width: 30px;
     grid-area: 10/5;
@@ -80,6 +89,15 @@ transform: rotate(180deg);
     grid-area: 1/1;
 }
 
+.clubsnumber {
+    grid-area: 2/1;
+}
+
+.clubnumberupsidedown {
+    grid-area: 9/5;
+    transform: rotate(180deg);
+}
+
 .clubsupsidedown {
     width: 30px;
     grid-area: 10/5;
@@ -94,6 +112,15 @@ transform: rotate(180deg);
 .diamonds {
     width: 30px;
     grid-area: 1/1;
+}
+
+.diamondsnumber {
+    grid-area: 2/1;
+}
+
+.diamondnumberupsidedown {
+    grid-area: 9/5;
+    transform: rotate(180deg);
 }
 
 .diamondsupsidedown {
